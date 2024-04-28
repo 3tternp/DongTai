@@ -1,5 +1,5 @@
 asgiref~=3.3.1
-certifi==2020.11.8
+certifi==2023.7.22
 cffi==1.14.4
 chardet==3.0.4
 Django~=3.2.12
@@ -14,18 +14,18 @@ django-utils-six==2.0
 django-simple-captcha==0.5.14
 django-import-export==2.5.0
 oss2==2.13.1
-idna==2.10
+idna==3.7
 lxml==4.9.1
 mysqlclient
 python-docx==0.8.10
-requests==2.25.1
+requests==2.31.0
 six==1.15.0
-urllib3==1.26.5
+urllib3==1.26.18
 xlwt==1.3.0
 uwsgi==2.0.19.1
 pyre2~=0.3.6
 celery==5.2.7
-redis==3.5.3
+redis==4.3.6
 python-docx==0.8.10
 openpyxl==3.0.9
 id-validator==1.0.20
@@ -47,7 +47,7 @@ docxtpl==0.16.0
 docxcompose==1.3.4
 django-elasticsearch-dsl==7.2.2
 asyncio-gevent==0.2.1
-gevent==21.12.0
+gevent==23.9.0
 ddt==1.6.0
 boto3==1.24.59
 mypy==0.961
@@ -61,3 +61,5 @@ types-urllib3==1.26.24
 boto3-stubs==1.24.72 
 botocore-stubs==1.27.71
 pep8==1.7.1
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
+sqlparse>=0.5.0 # not directly required, pinned by Snyk to avoid a vulnerability
