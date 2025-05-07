@@ -47,7 +47,7 @@ docxtpl==0.16.0
 docxcompose==1.3.4
 django-elasticsearch-dsl==7.2.2
 asyncio-gevent==0.2.1
-gevent==21.12.0
+gevent==25.4.1
 ddt==1.6.0
 boto3==1.24.59
 mypy==0.961
@@ -61,3 +61,4 @@ types-urllib3==1.26.24
 boto3-stubs==1.24.72 
 botocore-stubs==1.27.71
 pep8==1.7.1
+setuptools>=78.1.1 # not directly required, pinned by Snyk to avoid a vulnerability
